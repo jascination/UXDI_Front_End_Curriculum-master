@@ -1,0 +1,267 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "h";
+}
+.icon-contact:before {
+  content: "c";
+}
+.icon-about:before {
+  content: "a";
+}
+
+body {
+	background: #eeeeee;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+.content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 100px;
+	overflow: hidden;
+	background: #ffffff;
+}
+.header img {
+	min-width: 100px;
+	height: 100px;
+	float: left;
+}
+.header .nav {
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style: none;
+}
+.header .nav li {
+	display: inline-block;
+}
+.header .nav a {
+	display: block;
+	line-height: 100px;
+	padding: 0 20px;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+.header .nav a:hover,
+.header .nav a:focus {
+	color: #ffffff;
+	background: #000000;
+}
+
+.banner {
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	margin-bottom: 50px;
+}
+.banner .content {
+	height: 400px;
+	background: rgba(255,255,255,0.2);
+}
+.banner h1 {
+	margin: 0;
+	text-align: center;
+	line-height: 400px;
+	text-transform: uppercase;
+	font-size: 80px;
+	letter-spacing: 5px;
+	font-weight: normal;
+	color: #ffffff;
+	text-shadow: 0 0 15px #ffffff;
+	font-family: 'Bitter', serif;
+}
+
+.column {
+	float: left;
+	width: 350px;
+	height: 400px;
+	margin-right: 20px;
+}
+
+.column h2,
+.column p {
+	margin: 20px 20px 0;
+	padding-bottom: 20px;
+}
+
+.column h2 {
+	border-bottom: 1px solid #cccccc;
+}
+
+.column-left,
+.column-center {
+	background: #ffffff;
+}
+
+.column-right {
+	width: 199px;
+	margin-right: 0;
+	padding-left: 20px;
+	border-left: 1px solid #cccccc;
+}
+
+.youtube {
+	clear: both;
+	padding: 50px 0;
+	display: block;
+}
+.footer-nav {
+	height: 140px;
+	padding: 100px 0;
+	list-style: none;
+	background-image: -webkit-linear-gradient(bottoxm, #dddddd 0%, #ddddff 100%);
+	background-image: linear-gradient(to bottom, #dddddd 0%, #ddddff 100%);
+}
+.footer-nav li {
+	float: left;
+}
+.footer-nav li a {
+	display: block;
+	width: 320px;
+	text-align: center;
+/*	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	padding-top: 120px;*/
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+.footer-nav li a:hover,
+.footer-nav li a:focus {
+	color: #ffffff;
+	text-shadow: 0 0 10px #000000;
+}
+.footer-nav .icon {
+	font-size: 100px;
+}
+.footer {
+	text-align: center;
+}
+
+/* MOBILE PHONE */
+@media only screen and (max-width: 480px) {
+	.content {
+		width: 100%;
+	}
+	.header {
+		height: auto;
+	}
+	.header .nav {
+		float: none;
+		clear: left;
+	}
+	.header .nav li {
+		width: 33.333%;
+		float: left;
+		text-align: center;
+		white-space: nowrap;
+	}
+	.banner h1 {
+		font-size: 30px;
+	}
+	.column {
+		width: 100%;
+		float: none;
+		padding-bottom: 20px;
+	}
+	.column img {
+		width: 100%;
+	}
+	.column-right {
+		display: none;
+	}
+	.youtube {
+		width: 100%;
+	}
+	.footer-nav li {
+		width: 33.333%;
+	}
+	.footer-nav li a {
+		width: auto;
+	}
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+	.content {
+		width: 100%;
+	}
+	.column {
+		width: 48%;
+		margin: 0 1%;
+		height: auto;
+	}
+	.column img {
+		width: 100%;
+	}
+	.column-right {
+		display: none;
+	}
+	.youtube {
+		width: 100%;
+	}
+	.footer-nav li {
+		width: 33.333%;
+	}
+	.footer-nav li a {
+		width: auto;
+	}
+}
+
+/* Desktop */
+@media only screen and (min-width: 1025px) {
+
+}
+
+
+
+
+
+
+
+
