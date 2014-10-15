@@ -21,7 +21,7 @@ __By the end of the week, students should achieve the following learning objecti
 
 | [Day 01](Day_01) | [Day 02](Day_02) | [Day 03](Day_03) | [Day 04](Day_04) | [Day 05](Day_05) |
 |:----:|:---------:|:---------------:|:---:|:----:|
-|[Introduction to Web Development](/Day_01/01_intro_to_web_dev_and_HTML)| [HTML & CSS](Day_02) | [Advanced CSS](Day_03)| [Understanding Javascript](Day_04/09_javascript) | [Workshop: Building & Testing Case study Site (Example)](http://codepen.io/nevan/pen/d339cc09d81935274334b85c9f5ba2d4/) |
+|[Introduction to Web Development](tree/master/UXDI_Summer_2014/Day_01)| [HTML & CSS](Day_02) | [Advanced CSS](Day_03)| [Understanding Javascript](Day_04/09_javascript) | [Workshop: Building & Testing Case study Site (Example)](http://codepen.io/nevan/pen/d339cc09d81935274334b85c9f5ba2d4/) |
 |From Comps to Code: Annotating & Communicating with Developers| [Workshop: Wireframing your Case Study Site (Example)](http://codepen.io/nevan/pen/d339cc09d81935274334b85c9f5ba2d4/) | [Workshop: Styling your Personal Case Study Site (Example)](http://codepen.io/nevan/pen/d339cc09d81935274334b85c9f5ba2d4/)|[Workshop: Building & Testing your Case Study Site (Example)](http://codepen.io/nevan/pen/d339cc09d81935274334b85c9f5ba2d4/) | Presentations
 |--| -- | -- | --
 |--| -- | -- | --
